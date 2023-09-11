@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.landing {
+    height: 100%;
+    width: 100%;
+    background-image: url();
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+
+.formBox {
+    width: 400px;
+    height: 520px;
+    position: absolute;
+    left: 200px;
+    margin: 6% auto;
+    background: rgba(0, 0, 0, .6);
+    padding: 5px;
+    overflow: hidden;
+}
+
+.admin {
+    color: white;
+    font-size: 13px;
+    text-decoration: underline;
+    position: absolute;
+    margin-top: 473px;
+    margin-left: 165px;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+.button-box {
+    width: 220px;
+    margin: 35px auto;
+    position: absolute;
+    left: 90px;
+    box-shadow: 0 0 20px 9px rgb(69, 68, 68);
+    border-radius: 50px;
+}
+
+.btnSignIn {
+    padding: 10px 30px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: white;
+}
+
+#btn {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 110px;
+    height: 100%;
+    background: linear-gradient(to right, rgb(255, 217, 0), rgb(0, 0, 0));
+    border-radius: 30px;
+    transition: .5s;
+}
+
+.input {
+    top: 180px;
+    position: absolute;
+    width: 310px;
+    transition: .5s;
+}
+
+.inputField {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px p;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+}
+
+.btnSign {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    width: 200px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, rgb(255, 217, 0), rgb(0, 0, 0));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.btnAdmin {
+    padding: .2rem .8rem;
+    border: 2px #ccc solid;
+    display: inline-block;
+    margin: 1rem 0 0;
+    border-radius: 50px;
+    font-size: 13px;
+    text-decoration: none;
+    color: white;
+    transition: background500ms ease;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: -195px;
+}
+
+.btnSign:hover {
+    color: #eee;
+}
+
+.btnReg {
+    position: absolute;
+    top: 290px;
+    left: 50px;
+    width: 200px;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, rgb(255, 217, 0), rgb(0, 0, 0));
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+}
+
+.btnReg:hover {
+    color: #eee;
+}
+
+#login {
+    left: 50px;
+}
+
+#register {
+    left: 450px;
+}
